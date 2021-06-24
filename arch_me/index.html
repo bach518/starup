@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Arch Port me</title>
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/jquery-2.1.4.js"></script>
+  <!-- Page Scroll Effects JS & CSS -->
+  <script src="js/velocity/velocity.min.js"></script>
+  <script src="js/velocity/velocity.ui.min.js"></script>
+  <script src="js/velocity/main.js"></script>
+  <link rel="stylesheet" href="js/velocity/velocity.css">
+  <!-- Smooth Scrolling -->
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <!-- Slick.js -->
+  <script src="js/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="js/slick/slick-theme.css">
+  <link rel="stylesheet" href="js/slick/slick.css">
+  <!-- Featherlight.js -->
+  <script src="js/featherlight/featherlight.js"></script>
+  <link rel="stylesheet" href="js/featherlight/featherlight.css">
+  <!-- Custom JS & CSS -->
+  <script src="custom.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+
+<body data-hijacking="on" data-animation="scaleDown">
+  <div class="container">
+    <section class="cd-section visible" id="Home">
+      <div>
+        <div class="content">
+          <div class="home-inner">
+            <div class="welcome-text">
+              <h3>
+                You can do it <span>with CodingWorks <i class="fa fa-heart"></i></span>
+              </h3>
+            </div>
+            <div class="home-image"></div>
+            <div class="home-text">
+              <span>Creative</span>
+              <span>Architecture</span>
+              <span>Spencialists</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cd-section" id="About">
+      <div>
+        <div class="content">
+          <div class="about-inner">
+            <div class="about-text">
+              <div class="about-text-item">
+                <img src="images/careers-main-01.png" alt="">
+                <span>
+                  <h3>Together we can make an impact</h3>
+                  <p>
+                    Design Works the excitement of an entrepreneurial environment with the stability of an established practice. Principals and senior leadership work side-by-side with junior designers to create innovative, workable designs.
+                  </p>
+                  </span>
+              </div>
+              <div class="about-text-item">               
+                <img src="images/careers-main-02.png" alt="">
+                <span>
+                  <h3>We’re always looking for talent</h3>
+                  <p>
+                    If you don’t see an open position that fits your talents, send us your resume. We’re always looking for smart, self-starters and will reach out to you if something becomes available.
+                  </p>
+                </span>
+              </div>
+              <div class="about-text-item">
+                <img src="images/careers-main-03.png" alt="">
+                <span>
+                  <h3>Fellowship</h3>
+                  <p>
+                    Every summer we offer a Fellowship to a select group of students in architecture, planning and landscape architecture. Read about our 2019 Fellowship winners and learn more about what the Fellowship has to offer.
+                  </p>
+              </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cd-section" id="Project">
+      <div>
+        <div class="content">
+          <div class="project-inner">
+            <input type="radio" name="tabmenu" id="tab1" checked >
+            <input type="radio" name="tabmenu" id="tab2">
+            <input type="radio" name="tabmenu" id="tab3">
+            <div class="tabs">
+              <div class="tab">
+                <div class="project-left" data-text="01">
+                  <h3>Project : Glass Wall Architecture</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quo voluptate, officia maxime, necessitatibus deleniti adipisci, facere accusantium aut nemo, molestiae rem vitae. 
+                  </p>
+                  <ul>
+                    <li><b>Area</b> : 1670 m2</li>
+                    <li><b>Completed Date</b> : September 2018</li>
+                    <li><b>Architect</b> : Andrew Yu</li>
+                  </ul>
+                  <div class="detail">
+                    <div>
+                      <span>225</span>WORKING DAY
+                    </div>
+                    <div>
+                      <span>320</span>MEMBERS
+                    </div>
+                    <div>
+                      <span>3M</span>BUDGET
+                    </div>
+                  </div>
+                  <a class="view-project" href="project-detail-01.html" data-featherlight="iframe">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-right">
+                  <img src="images/project-main-01-01.jpg">
+                  <img src="images/project-main-01-02.jpg">
+                  <img src="images/project-main-01-03.jpg">
+                  <img src="images/project-main-01-04.jpg">
+                </div>
+              </div>
+              <div class="tab">
+                <div class="project-left" data-text="02">
+                  <h3>Project : Hallway of Architecture</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quo voluptate, officia maxime, necessitatibus deleniti adipisci, facere accusantium aut nemo, molestiae rem vitae. 
+                  </p>
+                  <ul>
+                    <li><b>Area</b> : 2345 m2</li>
+                    <li><b>Completed Date</b> : April 2019</li>
+                    <li><b>Architect</b> : Robert Kim</li>
+                  </ul>
+                  <div class="detail">
+                    <div>
+                      <span>321</span>WORKING DAY
+                    </div>
+                    <div>
+                      <span>420</span>MEMBERS
+                    </div>
+                    <div>
+                      <span>8M</span>BUDGET
+                    </div>
+                  </div>
+                  <a class="view-project" href="">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-right">
+                  <img src="images/project-main-02-01.jpg">
+                  <img src="images/project-main-02-02.jpg">
+                  <img src="images/project-main-02-03.jpg">
+                  <img src="images/project-main-02-04.jpg">
+                </div>
+              </div>
+              <div class="tab">
+                <div class="project-left" data-text="03">
+                  <h3>Project : Outside Stairs Architecture</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quo voluptate, officia maxime, necessitatibus deleniti adipisci, facere accusantium aut nemo, molestiae rem vitae. Quidem 
+                  </p>
+                  <ul>
+                    <li><b>Area</b> : 1200 m2</li>
+                    <li><b>Completed Date</b> : May 2020</li>
+                    <li><b>Architect</b> :  Christine Jung</li>
+                  </ul>
+                  <div class="detail">
+                    <div>
+                      <span>132</span>WORKING DAY
+                    </div>
+                    <div>
+                      <span>202</span>MEMBERS
+                    </div>
+                    <div>
+                      <span>5M</span>BUDGET
+                    </div>
+                  </div>
+                  <a class="view-project" href="">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-right">
+                  <img src="images/project-main-03-01.jpg">
+                  <img src="images/project-main-03-02.jpg">
+                  <img src="images/project-main-03-03.jpg">
+                  <img src="images/project-main-03-04.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <label for="tab1"></label>
+              <label for="tab2"></label>
+              <label for="tab3"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cd-section" id="plan">
+      <div>
+        <div class="content">
+          <div class="plan-inner">
+            <div class="plan-box">
+              <div class="plan-top">
+                <div class="plan-top-left">
+                  <h2>Planning<br>
+                    For the Next Project</h2>
+                    <hr class="bar">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, reiciendis. Quasi, laboriosam aperiam sint obcaecati deleniti dolor velit cum ipsam deserunt laborum unde quae nemo ab possimus, consequatur quisquam, veniam quia atque magnam? Fugit dolore aperiam animi eligendi, laboriosam dolorum tenetur nemo vitae. Quibusdam praesentium quia beatae deserunt, dolore nisi?
+                    </p>
+                </div>
+               <div class="plan-top-image">
+                 <img src="images/plan-main-01.jpg" alt="">
+               </div>
+              </div>
+              <div class="plan-bottom">
+                <h2>History</h2>
+                <hr class="bar">
+                <div class="plan-slide">
+                  <div>
+                    <h4>The Project <br>of Architect for the <span>2013</span></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eveniet modi totam ratione dolores accusantium sapiente cupiditate ipsum, non repudiandae!
+                    </p>
+                  </div>
+                  <div>
+                    <h4>The Project <br>of Architect for the <span>2014</span></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eveniet modi totam ratione dolores accusantium sapiente cupiditate ipsum, non repudiandae!
+                    </p>
+                  </div>
+                  <div>
+                    <h4>The Project <br>of Architect for the <span>2015</span></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eveniet modi totam ratione dolores accusantium sapiente cupiditate ipsum, non repudiandae!
+                    </p>
+                  </div>
+                  <div>
+                    <h4>The Project <br>of Architect for the <span>2016</span></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eveniet modi totam ratione dolores accusantium sapiente cupiditate ipsum, non repudiandae!
+                    </p>
+                  </div>
+                  <div>
+                    <h4>The Project <br>of Architect for the <span>2017</span></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eveniet modi totam ratione dolores accusantium sapiente cupiditate ipsum, non repudiandae!
+                    </p>
+                  </div>
+                  <div>
+                    <h4>The Project <br>of Architect for the <span>2018</span></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eveniet modi totam ratione dolores accusantium sapiente cupiditate ipsum, non repudiandae!
+                    </p>
+                  </div>
+                  <div>
+                    <h4>The Project <br>of Architect for the <span>2019</span></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eveniet modi totam ratione dolores accusantium sapiente cupiditate ipsum, non repudiandae!
+                    </p>
+                  </div>
+                  <div>
+                    <h4>The Project <br>of Architect for the <span>2020</span></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eveniet modi totam ratione dolores accusantium sapiente cupiditate ipsum, non repudiandae!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cd-section" id="Awards">
+      <div>
+        <div class="content">
+          <div class="awards-inner">
+            <div class="awards-left">
+              <div class="awards-left-inner">
+                <h2>2020 <br>Architecture Award <br>Winner</h2>
+                <hr class="bar">
+                <p>
+                  The mission of the Architecture MasterPrize (AMP) is to advance the appreciation and exposure of quality architectural design worldwide. The AMP architecture award celebrates creativity and innovation in the fields of architectural design, landscape architecture, and interior design. Submissions from architects all around the world are welcome.
+                </p>
+                <a href="#">VIEW THE AWARDS</a>
+              </div>
+              </div>
+              <div class="awards-right">
+                <img src="images/victory-jump.png" alt="">
+              </div>
+            </div>          
+          </div>
+        </div>
+    </section>
+    <section class="cd-section" id="Location">
+      <div>
+        <div class="content">
+          <div class="location-inner">
+            <div class="location-box">
+              <ul class="location-left">
+                <li class="headquaters">
+                  <b>CREATIVE DESGIN GROUP</b>
+                  <h2>Headquarters</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sapiente quae recusandae tempore perferendis, neque similique maxime provident rerum doloremque!
+                  </p>
+                  <span>Address : Address: 309, New Cavendish St, EC1Y 3WK / Tel : 0800 214 5252</span>
+                </li>
+                <li class="customer">
+                  <b>THE PERFECT WAY</b>
+                  <h2>Customer Service</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellat, enim aliquam perspiciatis fugiat nostrum repudiandae quidem ipsum impedit dolorum cupiditate laborum quo?
+                  </p>
+                  <span>Address : 11 Fifth Ave - New York, US / Tel : 0800 809 3400</span>
+                </li>
+              </ul>
+              <ul class="location-right">
+                <li class="built">
+                  <i class="fa fa-leaf"></i>
+                  <h2>Built and natural contexts</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur explicabo labore blanditiis id sit.
+                  </p>
+                </li>
+                <li class="land">
+                  <i class="fa fa-bullseye"></i>
+                  <h2>Landscape design</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur explicabo labore blanditiis id sit.
+                  </p>
+                </li>
+                <li class="every">
+                  <i class="fa fa-cube"></i>
+                  <h2>Every building site unique</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur explicabo labore blanditiis id sit.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cd-section" id="Contact">
+      <div>
+        <div class="content">
+          <div class="contact-inner">
+            <div class="contact-box">
+              <div class="contact-left">
+                <h3><b>Contact</b> Us</h3>
+                <p>Feel free to ask for details, dont’save any questions. </p>
+                <label>Email<span>*</span></label>
+                <input type="email">
+                <label >Subject<span>*</span></label>
+                <input type="text">
+                <label >Message<span>*</span></label>
+                <textarea cols="30" rows="10"></textarea>
+                <button>send maessage</button>           
+              </div>
+              <div class="contact-right">
+                <h4>Our <b>office</b></h4>
+                <ul>
+                  <li>Address : Address: 309, New Cavendish St, EC1Y 3WK</li>
+                  <li>Phone : 0800 214 5252</li>
+                  <li>Email : designworks@designworks.com</li>
+                </ul>
+                <h4>Business <b>Hours</b></h4>
+                <ul>
+                  <li><i class="far fa-clock"></i> Monday - Friday : 9am to 5pm</li>
+                    <li><i class="far fa-clock"></i> Saturday : 9am to 2pm</li>
+                    <li><i class="far fa-clock"></i> Sunday : Closed</li>
+                </ul>
+                <h4>Get in <b>Touch</b></h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, non, suscipit? Qui illo enim autem fugiat dicta provident ipsa libero saepe dolorum, animi. Quisquam voluptatem tenetur dolore fuga dignissimos eum quasi ab repellat repellendus earum molestiae, nostrum sunt voluptate eveniet! Quos blanditiis et, saepe fugit minus. Tenetur nulla, voluptates itaque.
+                  </p>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <header>
+      <div class="gnb-inner">
+        <div class="logo">
+          <a href="#none"><img src="images/logo.png"></a>
+        </div>
+        <div class="gnb">
+          <div class="menu">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Project">Project</a>
+            <a href="#plan">plan & History</a>
+            <a href="#Awards">Awards</a>
+            <a href="#Location">Location</a>
+            <a href="#Contact">Contact</a>
+          </div>
+          <div class="slogan">We design places, not projects.
+            Hiring</div>
+        </div>
+        <div class="trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul class="cd-vertical-nav">
+        <li><a href="#0" class="cd-prev inactive">Next</a></li>
+        <li><a href="#0" class="cd-next">Prev</a></li>
+      </ul>
+    </nav> <!-- .cd-vertical-nav -->
+  </div>
+  <!-- gototop Button -->
+  <a href="#" class='gototop'><img src="images/gototop.png" ></a>
+  <a href="#" class="btn-hiring"><i class="fas fa-comment"></i>Hiring</a>
+
+</body>
+
+</html>
